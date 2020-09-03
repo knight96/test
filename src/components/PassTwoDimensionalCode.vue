@@ -31,7 +31,7 @@
             <img src="../assets/two_dimensional_code.png" class="picture">
           </div>
           <div class="label">
-            <span style="font-size: 16px">状态</span>
+            <span style="font-size: 20px">状态</span>
           </div>
           <div class="content">
             <span class="state-text">允许出校</span>
@@ -133,8 +133,8 @@ export default {
 }
 .state-text {
   color: rgb(4, 146, 23);
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
 }
 .more {
   padding: 5px 10px;
