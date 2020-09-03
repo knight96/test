@@ -5,9 +5,6 @@
 const path = require('path')
 
 module.exports = {
-  baseUrl: process.env.NODE_ENV === 'production'
-  ? '/test/'
-    : '/',
   dev: {
 
     // Paths
@@ -53,7 +50,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: './',
+    assetsPublicPath: '/',
 
     /**
      * Source Maps
